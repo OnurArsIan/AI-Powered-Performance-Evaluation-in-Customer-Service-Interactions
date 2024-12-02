@@ -15,11 +15,23 @@ This project analyzes customer service interaction audio recordings using machin
 3. **Rating Calculation**: Combines emotion predictions to generate an overall star rating.
 4. **Visualization**: Displays emotion percentages and segment-wise predictions in an interactive dashboard.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+## Dataset
+This project utilizes the **Turkish Emotion-Voice Database (TurEV-DB)**. The dataset includes sound files and metadata for emotion recognition tasks. It is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+### Citation
+If you use this project or the dataset, please cite TurEV-DB as follows:
+
+#### BibTeX
+```bibtex
+@inproceedings{canpolat2020turkish,
+  title={Turkish Emotion Voice Database (TurEV-DB)},
+  author={Canpolat, Salih Firat and Ormano{\u{g}}lu, Zuhal and Zeyrek, Deniz},
+  booktitle={Proceedings of the 1st Joint Workshop on Spoken Language
+  Technologies for Under-resourced languages (SLTU) and Collaboration
+  and Computing for Under-Resourced Languages (CCURL)},
+  pages={368--375},
+  year={2020}
+}
 
 
 ![photo1](https://github.com/user-attachments/assets/ae9cb252-869a-4947-bb7b-e3e4732d71d3)
