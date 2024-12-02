@@ -76,3 +76,5 @@ This project uses the **`librosa`** library for audio processing, **`XGBoost`** 
 ## License
 This project uses the **Turkish Emotion-Voice Database (TurEV-DB)**, which is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
+![photo1](https://github.com/user-attachments/assets/132fb7dc-acc7-4c47-bfa9-d0c0db7e124e)
+![photo2](https://github.com/user-attachments/assets/61f96758-76b0-4cc5-9d12-ea1c2487d201)
