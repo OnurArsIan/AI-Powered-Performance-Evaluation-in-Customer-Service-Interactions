@@ -32,3 +32,47 @@ If you use this project or the dataset, please cite TurEV-DB as follows:
   pages={368--375},
   year={2020}
 }
+```
+
+#### APA
+Canpolat, S. F., Ormano\u{g}lu, Z., & Zeyrek, D. (2020, May). Turkish Emotion Voice Database (TurEV-DB). In Proceedings of the 1st Joint Workshop on Spoken Language Technologies for Under-resourced languages (SLTU) and Collaboration and Computing for Under-Resourced Languages (CCURL) (pp. 368-375).
+
+## Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+   ```
+2. **Install the dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the Streamlit application**:
+   ```bash
+   streamlit run uygulama3.py
+   ```
+
+## Usage
+1. **Upload a customer service interaction audio file** (preferably 4 minutes long).
+2. **View the analysis**, including:
+   - Emotion percentages.
+   - Segment-wise emotion predictions.
+   - Overall star rating.
+3. **Play the uploaded audio file** within the interface.
+
+## File Structure
+- **`import os.py`**: Script for creating datasets and feature extraction.
+- **`uygulama3.py`**: Streamlit application for real-time analysis.
+- **`xgb_model.pkl`**, **`scaler.pkl`**, **`label_encoder.pkl`**: Pre-trained model and necessary encoders/scalers.
+
+## Future Work
+- **Extend the model for multilingual emotion detection**.
+- **Enhance the Streamlit interface** with more visualization options.
+- **Develop an API** for integration with mobile applications.
+
+## Acknowledgments
+This project uses the **`librosa`** library for audio processing, **`XGBoost`** for machine learning, and the **Turkish Emotion-Voice Database (TurEV-DB)** for training and evaluation. Special thanks to the open-source community and TurEV-DB contributors for providing resources that made this project possible.
+
+## License
+This project uses the **Turkish Emotion-Voice Database (TurEV-DB)**, which is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
